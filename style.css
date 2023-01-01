@@ -1,0 +1,56 @@
+/* fonts */
+@font-face {
+	font-family: 'Inika';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Inika'),
+		url('/assets/fonts/Inika/Inika-Regular.woff') format('woff'),
+		url('/assets/fonts/Inika/Inika-Regular.ttf') format('ttf');
+}
+
+@font-face {
+	font-family: 'Inika';
+	font-style: normal;
+	font-weight: bold;
+	src: local('Inika'),
+		url('/assets/fonts/Inika/Inika-Bold.woff') format('woff'),
+		url('/assets/fonts/Inika/Inika-Bold.ttf') format('ttf');
+}
+/* fonts - end */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	min-height: 100vh;
+}
+
+.logo {
+	position: relative;
+	display: flex;
+	height: 21px;
+	padding-left: 21px;
+}
+
+.logo__title {
+	align-self: flex-end;
+	font-family: 'Inika';
+	font-weight: normal;
+	font-size: 16px;
+	color: #000000;
+	line-height: 13px;
+}
+
+.logo::after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	background: url('/assets/images/svg/logo.svg') no-repeat center;
+}
