@@ -28,6 +28,11 @@ body {
 	min-height: 100vh;
 }
 
+.header__wrap {
+	display: flex;
+	justify-content: space-between;
+}
+
 .logo {
 	position: relative;
 	display: flex;
@@ -53,4 +58,25 @@ body {
 	width: 20px;
 	height: 20px;
 	background: url('/assets/images/svg/logo.svg') no-repeat center;
+}
+
+.nav__list {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.nav__item {
+	margin: 0 23px;
+	font-family: 'Inika';
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 50px;
+	color: #010201;
+}
+
+.nav__item:hover {
+	cursor: pointer;
+	color: #E06733;
 }
