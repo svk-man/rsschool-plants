@@ -1,5 +1,41 @@
 /* fonts */
 @font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Inter'),
+		url('/assets/fonts/Inter/Inter-Light.woff') format('woff'),
+		url('/assets/fonts/Inter/Inter-Light.ttf') format('ttf');
+}
+
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Inter'),
+		url('/assets/fonts/Inter/Inter-Regular.ttf') format('woff'),
+		url('/assets/fonts/Inter/Inter-Regular.ttf') format('ttf');
+}
+
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	src: local('Inter'),
+		url('/assets/fonts/Inter/Inter-SemiBold.ttf') format('woff'),
+		url('/assets/fonts/Inter/Inter-SemiBold.ttf') format('ttf');
+}
+
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Inter'),
+		url('/assets/fonts/Inter/Inter-Bold.ttf') format('woff'),
+		url('/assets/fonts/Inter/Inter-Bold.ttf') format('ttf');
+}
+
+@font-face {
 	font-family: 'Inika';
 	font-style: normal;
 	font-weight: normal;
@@ -15,6 +51,15 @@
 	src: local('Inika'),
 		url('/assets/fonts/Inika/Inika-Bold.woff') format('woff'),
 		url('/assets/fonts/Inika/Inika-Bold.ttf') format('ttf');
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Roboto'),
+		url('/assets/fonts/Roboto/Roboto-Regular.woff') format('woff'),
+		url('/assets/fonts/Roboto/Roboto-Regular.ttf') format('ttf');
 }
 /* fonts - end */
 
@@ -32,10 +77,36 @@ body {
 .container {
 	max-width: 1440px;
 	margin: 0 auto;
+	padding: 0 109px;
+}
+
+.btn {
+	display: block;
+	padding: 10px 23px;
+	font-family: 'Inter';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+	text-transform: uppercase;
+	background-color: transparent;
+	border: 2px solid #E06733;
+	border-radius: 10px;
+	transition: all .3s linear;
+}
+
+.btn:hover {
+	cursor: pointer;
+	background-color: #E06733;
+	color: #FFFFFF;
+}
+
+.green-text {
+	color: #499A18;
 }
 
 .header__wrap {
-	padding: 42px 109px;
+	padding: 42px 109px 42px 111px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -86,4 +157,45 @@ body {
 .nav__item:hover {
 	cursor: pointer;
 	color: #E06733;
+}
+
+.welcome__wrap {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 62px 0;
+}
+
+.welcome__img {
+	width: 448.8px;
+	height: 407.36px;
+}
+
+.welcome__info {
+	max-width: 549px;
+	display: flex;
+	flex-direction: column;
+}
+
+.welcome__title {
+	margin-bottom: 42px;
+	font-family: 'Inter';
+	font-weight: 700;
+	font-size: 45px;
+	line-height: 50px;
+	color: #717171;
+}
+
+.welcome__desc {
+	margin-bottom: 48px;
+	font-family: 'Inter';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 35px;
+	color: #636060;
+}
+
+.welcome__btn {
+	max-width: 158px;
 }
