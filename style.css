@@ -80,6 +80,10 @@ body {
 	padding: 0 109px;
 }
 
+.white-section {
+	background-color: #FFFFFF;
+}
+
 .btn {
 	display: block;
 	padding: 10px 23px;
@@ -103,6 +107,10 @@ body {
 
 .green-text {
 	color: #499A18;
+}
+
+.yellow-text {
+	color: #E06733;
 }
 
 .header__wrap {
@@ -209,4 +217,42 @@ body {
 
 .welcome__btn {
 	max-width: 158px;
+}
+
+.about__wrap {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 93px 0 94px;
+}
+
+.about__img {
+	width: 464px;
+	height: 479px;
+}
+
+.about__info {
+	max-width: 605px;
+	display: flex;
+	flex-direction: column;
+	padding-top: 68px;
+}
+
+.about__title {
+	max-width: 463px;
+	margin-bottom: 40px;
+	font-family: 'Inika';
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 52px;
+	color: #499A18;
+}
+
+.about__desc {
+	font-family: 'Inter';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	color: #636060;
 }
