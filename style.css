@@ -257,3 +257,23 @@ body {
 	line-height: 30px;
 	color: #636060;
 }
+
+.service__header {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	row-gap: 142px;
+}
+
+.service__title {
+	max-width: 306px;
+	font-family: 'Inika';
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 52px;
+	color: #499A18;
+}
+
+.service__tabs {
+	list-style: none;
+}
