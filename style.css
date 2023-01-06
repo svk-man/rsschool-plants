@@ -262,7 +262,9 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-	row-gap: 142px;
+	column-gap: 142px;
+	align-items: center;
+	margin: 40px 0 90px;
 }
 
 .service__title {
@@ -276,4 +278,27 @@ body {
 
 .service__tabs {
 	list-style: none;
+	max-width: 559px;
+	max-height: 50px;
+	display: flex;
+	justify-content: space-between;
+	gap: 78px;
+}
+
+.service__tabs-item {
+	padding: 10px 38px;
+	font-family: 'Inika';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 26px;
+	color: #E06733;
+	border: 1px solid #E06733;
+	border-radius: 5px;
+	transition: all .3s linear;
+}
+
+.service__tabs-item:hover {
+	cursor: pointer;
+	background-color: #E06733;
+	color: #FFFFFF;
 }
