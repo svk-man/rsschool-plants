@@ -302,3 +302,52 @@ body {
 	background-color: #E06733;
 	color: #FFFFFF;
 }
+
+.service__cards {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	gap: 115px 55px;
+}
+
+.service__card {
+	width: 330px;
+	height: 450px;
+	overflow: hidden;
+}
+
+.service__card-info {
+	width: 330px;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	padding-top: 10px;
+	border: 1px solid #E3E1D5;
+	border-radius: 0px 0px 20px 20px;
+}
+
+.service__card-img {
+	display: block;
+	width: 330px;
+	height: 350px;
+	object-fit: cover;
+	border-radius: 20px 20px 0px 0px;
+}
+
+.service__card-title {
+	font-family: 'Inter';
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 20px;
+	color: #E06733;
+}
+
+.service__card-desc {
+	font-family: 'Inter';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: #717171;
+}
