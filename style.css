@@ -258,13 +258,17 @@ body {
 	color: #636060;
 }
 
+.service {
+	padding: 40px 0 121px;
+}
+
 .service__header {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 	column-gap: 142px;
 	align-items: center;
-	margin: 40px 0 90px;
+	margin-bottom: 90px;
 }
 
 .service__title {
@@ -306,8 +310,8 @@ body {
 .service__cards {
 	list-style: none;
 	display: flex;
-	justify-content: space-between;
-	gap: 115px 55px;
+	flex-wrap: wrap;
+	gap: 55px 115px;
 }
 
 .service__card {
