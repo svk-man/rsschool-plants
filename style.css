@@ -318,6 +318,12 @@ body {
 	width: 330px;
 	height: 450px;
 	overflow: hidden;
+	transition: all .3s linear;
+}
+
+.service__card:hover {
+	cursor: pointer;
+	filter: blur(2px);
 }
 
 .service__card-info {
