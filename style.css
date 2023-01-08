@@ -92,7 +92,6 @@ body {
 	font-size: 16px;
 	line-height: 20px;
 	color: #000000;
-	text-transform: uppercase;
 	background-color: transparent;
 	border: 2px solid #E06733;
 	border-radius: 10px;
@@ -217,6 +216,7 @@ body {
 
 .welcome__btn {
 	max-width: 158px;
+	text-transform: uppercase;
 }
 
 .about__wrap {
@@ -381,12 +381,37 @@ body {
 	color: #000000;
 }
 
+.prices__content-right {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
 .prices__desc {
 	max-width: 452px;
+	margin-bottom: 38px;
 	font-family: 'Inter';
 	font-weight: 700;
 	font-size: 40px;
 	line-height: 50px;
 	text-align: right;
 	color: #000000;
+}
+
+.prices__btn {
+	padding: 11px 33px;
+	margin-bottom: 39px;
+	font-family: 'Inika';
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 26px;
+	color: #E06733;
+	border: 1px solid #E06733;
+	border-radius: 5px;
+}
+
+.prices__img {
+	width: 152px;
+	height: 175px;
+	object-fit: contain;
 }
