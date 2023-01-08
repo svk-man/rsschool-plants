@@ -361,3 +361,32 @@ body {
 	line-height: 20px;
 	color: #717171;
 }
+
+.prices {
+	padding: 35px 0 115px;
+	background-color: #FFFFFF;
+}
+
+.prices__wrap {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.prices__title {
+	font-family: 'Inter';
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 48px;
+	color: #000000;
+}
+
+.prices__desc {
+	max-width: 452px;
+	font-family: 'Inter';
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 50px;
+	text-align: right;
+	color: #000000;
+}
