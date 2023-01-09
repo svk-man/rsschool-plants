@@ -415,3 +415,14 @@ body {
 	height: 175px;
 	object-fit: contain;
 }
+
+.footer__column-left {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+	font-family: 'Inter';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 50px;
+	color: #000000;
+}
