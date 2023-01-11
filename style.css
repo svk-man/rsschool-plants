@@ -436,3 +436,33 @@ body {
 	justify-content: space-between;
 	gap: 20px;
 }
+
+.footer__socials {
+	list-style: none;
+	display: flex;
+	flex-wrap: nowrap;
+	gap: 20px;
+}
+
+.footer__socials-item {
+	width: 32px;
+	height: 32px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.footer__socials-item--inst {
+	background-image: url('./assets/images/svg/socials-inst.svg');
+}
+
+.footer__socials-item--fb {
+	background-image: url('./assets/images/svg/socials-fb.svg');
+}
+
+.footer__socials-item--tw {
+	background-image: url('./assets/images/svg/socials-tw.svg');
+}
+
+.footer__socials-item--pinterest {
+	background-image: url('./assets/images/svg/socials-pinterest.svg');
+}
