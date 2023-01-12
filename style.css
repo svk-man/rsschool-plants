@@ -416,6 +416,23 @@ body {
 	object-fit: contain;
 }
 
+.contacts {
+	padding-top: 53px;
+}
+
+.contacts__wrap {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contacts__title {
+	font-family: 'Inika';
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 52px;
+	color: #499A18;
+}
+
 .footer {
 	padding: 40px 0;
 	font-family: 'Inter';
