@@ -70,6 +70,8 @@
 	--gray: #636060;
 	--background: #EDF2EC;
 	--links: #010201;
+	--font-inter: 'Inter';
+	--font-inika: 'Inika';
 }
 
 * {
@@ -96,7 +98,7 @@ body {
 .btn {
 	display: block;
 	padding: 10px 23px;
-	font-family: 'Inter';
+	font-family: var(--font-inter);
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 20px;
@@ -140,7 +142,7 @@ body {
 
 .logo__title {
 	align-self: flex-end;
-	font-family: 'Inika';
+	font-family: var(--font-inika);
 	font-weight: normal;
 	font-size: 16px;
 	color: black;
@@ -168,7 +170,7 @@ body {
 
 .nav__item {
 	margin-right: 46px;
-	font-family: 'Inika';
+	font-family: var(--font-inika);
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 50px;
@@ -207,7 +209,7 @@ body {
 
 .welcome__title {
 	margin-bottom: 42px;
-	font-family: 'Inter';
+	font-family: var(--font-inter);
 	font-weight: 700;
 	font-size: 45px;
 	line-height: 50px;
@@ -216,7 +218,7 @@ body {
 
 .welcome__desc {
 	margin-bottom: 48px;
-	font-family: 'Inter';
+	font-family: var(--font-inter);
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 35px;
@@ -251,7 +253,7 @@ body {
 .about__title {
 	max-width: 463px;
 	margin-bottom: 40px;
-	font-family: 'Inika';
+	font-family: var(--font-inika);
 	font-weight: 400;
 	font-size: 40px;
 	line-height: 52px;
@@ -260,7 +262,7 @@ body {
 }
 
 .about__desc {
-	font-family: 'Inter';
+	font-family: var(--font-inter);
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 30px;
@@ -282,7 +284,7 @@ body {
 
 .service__title {
 	max-width: 306px;
-	font-family: 'Inika';
+	font-family: var(--font-inika);
 	font-weight: 400;
 	font-size: 40px;
 	line-height: 52px;
@@ -300,7 +302,7 @@ body {
 
 .service__tabs-item {
 	padding: 10px 38px;
-	font-family: 'Inika';
+	font-family: var(--font-inika);
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 26px;
@@ -356,7 +358,7 @@ body {
 }
 
 .service__card-title {
-	font-family: 'Inter';
+	font-family: var(--font-inter);
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 20px;
@@ -364,7 +366,7 @@ body {
 }
 
 .service__card-desc {
-	font-family: 'Inter';
+	font-family: var(--font-inter);
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 20px;
@@ -383,7 +385,7 @@ body {
 }
 
 .prices__title {
-	font-family: 'Inter';
+	font-family: var(--font-inter);
 	font-weight: 700;
 	font-size: 40px;
 	line-height: 48px;
@@ -399,7 +401,7 @@ body {
 .prices__desc {
 	max-width: 452px;
 	margin-bottom: 38px;
-	font-family: 'Inter';
+	font-family: var(--font-inter);
 	font-weight: 700;
 	font-size: 40px;
 	line-height: 50px;
@@ -410,7 +412,7 @@ body {
 .prices__btn {
 	padding: 11px 33px;
 	margin-bottom: 39px;
-	font-family: 'Inika';
+	font-family: var(--font-inika);
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 26px;
@@ -435,7 +437,7 @@ body {
 }
 
 .contacts__title {
-	font-family: 'Inika';
+	font-family: var(--font-inika);
 	font-weight: 700;
 	font-size: 40px;
 	line-height: 52px;
@@ -444,7 +446,7 @@ body {
 
 .footer {
 	padding: 40px 0;
-	font-family: 'Inter';
+	font-family: var(--font-inter);
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 50px;
